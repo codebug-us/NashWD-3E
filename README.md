@@ -7,4 +7,4 @@
 
 
 ## In `script.js`
-### Look at the array, then follow the directions in the script.js file. 
+### Look at the arrays at the top of the page, then follow the directions in the script.js file. 
