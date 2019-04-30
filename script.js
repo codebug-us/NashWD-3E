@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Step 1: 
   // Set a variable called longAFArrayLength equal to the length of the longAFArray. 
   // Once you've done that, refresh the page, and open the console to see if you're right
-  var longAFArrayLength = longAFArray.length; 
 
 
 
@@ -16,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Set a variable called longAFZero equal to the value at index 0 of the longAFArray. 
   // * Don't set longAFZero equal to longAFArray[0], set it equal to the value at index 0. * 
   // Once you've done that, refresh the page, and open the console to see if you're right
-  var longAFZero = 11; 
 
 
 
@@ -24,20 +22,17 @@ document.addEventListener('DOMContentLoaded', function() {
   // Set a variable called longAF18 equal to the value at index 18 of the longAFArray. 
   // * Don't set longAFZero equal to longAFArray[18], that misses the point. * 
   // * Also, don't just console.log the value for longAFArray[18], that misses the point. * 
-  var longAF18 = 3822; 
 
 
 
   // Step 4: 
   // Set a variable called longAF12 equal to the twelfth item in the longAFArray. 
   // Hint: The 12th item in the array is not the same as the item at index 12.
-  var longAF12 = longAFArray[11]; 
 
 
 
   // Step 5: 
   // Set a variable called longAF16 equal to the 16th value in the longAFArray. 
-  var longAF16 = 53; 
 
 
 
@@ -45,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Open at the webpage in Chrome. Take a look at the reading for Step 6. 
   // Then, set a variable called longAF3333 to the index that 3333 is located at in the longAFArray.
   // Also, predict what you think the index will be and console.log it. Were you right? 
- 	var longAF3333 = longAFArray.indexOf(3333);
 
 
 
@@ -54,25 +48,21 @@ document.addEventListener('DOMContentLoaded', function() {
  	// Look at the webpage in Chrome to find the reading for Step 7. 
  	// Set a variable called bigZero equal to the value at index 0 of the bigString
  	// * Remember, don't just set bigZero equal to bigString[0]. Write out the actual value * 
- 	var bigZero = bigString[0];
 
 
 
  	// Step 8: 
  	// Set a variable called big28 equal to the value at index 28 of the bigString
- 	var big28 = bigString[28];
 
 
 
   // Step 9: 
   // Set a variable called big5 equal to the 5th value in the longAFArray. 
-  var big5 = "r"; 
 
 
 
   // Step 10: 
   // Set a variable called big12 equal to the 12th value in the longAFArray. 
-  var big12 = "a"; 
 
 
 
@@ -80,7 +70,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Look at the webpage in Chrome to find the reading for Step 11. 
   // Set a variable called bigExpi to the index of "expi" in the bigString using the indexOf function. 
   // Also, predict what you think the index will be and console.log it. Were you right? 
-  var bigExpi = bigString.indexOf("expi");
 
 
 
@@ -88,7 +77,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Set a variable called bigAli to the index of "ali" in the bigString using the indexOf function. 
   // Notice there are two sections of bigString that have "ali". Which one will indexOf choose? 
   // console.log bigAli to see if you were right! 
-  var bigAli = bigString.indexOf("ali");
 
 
 
