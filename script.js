@@ -1,9 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 //////////////////////////////////////////////////////////////////////////
   var longAFArray = [11, 52, 1, 53, 22, 26, 2, 44, 2, 23, 17, 87, 102, 68, 434, 634, 53, 113, 3822, 57, 27, 58, "testing 1.2.3.", "Is this thing on?", 3333, 123123123123123, 40];
-  var bigString = "supercalifragilisticexpialidocious";
-  // Write your JavaScript below to gather the information needed to complete the sentences in the HTML.
-  
+  var bigString = "supercalifragilisticexpialidocious";  
 
   // Step 1: 
   // Set a variable called longAFArrayLength equal to the length of the longAFArray. 
@@ -12,68 +10,71 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   // Step 2: 
-  // Set a variable called longAFZero equal to the value at index 0 of the longAFArray. 
-  // * Don't set longAFZero equal to longAFArray[0], set it equal to the value at index 0. * 
+  // Is the value of longAFArray[1] equal to 11? Set a variable longAFOne equal to true or false. 
   // Once you've done that, refresh the page, and open the console to see if you're right
 
 
 
   // Step 3: 
-  // Set a variable called longAF18 equal to the value at index 18 of the longAFArray. 
-  // * Don't set longAFZero equal to longAFArray[18], that misses the point. * 
-  // * Also, don't just console.log the value for longAFArray[18], that misses the point. * 
+  // What is the value of longAFArray[0]? Set a variable longAFZero equal to that number.
+  // Once you've done that, refresh the page, and open the console to see if you're right
 
 
 
   // Step 4: 
+  // Is the value of longAFArray[18] equal to 113? Set a variable longAF18 equal to true or false. 
+  // * Also, don't just console.log the value for longAFArray[18], that misses the point. * 
+
+
+
+  // Step 5: 
   // Set a variable called longAF12 equal to the twelfth item in the longAFArray. 
   // Hint: The 12th item in the array is not the same as the item at index 12.
 
 
 
-  // Step 5: 
+  // Step 6: 
   // Set a variable called longAF16 equal to the 16th value in the longAFArray. 
 
 
 
-  // Step 6: 
+  // Step 7: 
   // Open at the webpage in Chrome. Take a look at the reading for Step 6. 
-  // Then, set a variable called longAF3333 to the index that 3333 is located at in the longAFArray.
+  // Then, set a variable called longAF3333 to the INDEX that 3333 is located at in the longAFArray.
   // Also, predict what you think the index will be and console.log it. Were you right? 
 
 
 
- 	// Step 7: 
+ 	// Step 8: 
  	// Strings have many of the same properties and functions as Arrays! 
  	// Look at the webpage in Chrome to find the reading for Step 7. 
  	// Set a variable called bigZero equal to the value at index 0 of the bigString
- 	// * Remember, don't just set bigZero equal to bigString[0]. Write out the actual value * 
 
 
 
- 	// Step 8: 
+ 	// Step 9: 
  	// Set a variable called big28 equal to the value at index 28 of the bigString
 
 
 
-  // Step 9: 
+  // Step 10: 
   // Set a variable called big5 equal to the 5th value in the longAFArray. 
 
 
 
-  // Step 10: 
+  // Step 11: 
   // Set a variable called big12 equal to the 12th value in the longAFArray. 
 
 
 
-  // Step 11: 
+  // Step 12: 
   // Look at the webpage in Chrome to find the reading for Step 11. 
   // Set a variable called bigExpi to the index of "expi" in the bigString using the indexOf function. 
   // Also, predict what you think the index will be and console.log it. Were you right? 
 
 
 
-  // Step 12: 
+  // Step 13: 
   // Set a variable called bigAli to the index of "ali" in the bigString using the indexOf function. 
   // Notice there are two sections of bigString that have "ali". Which one will indexOf choose? 
   // console.log bigAli to see if you were right! 
@@ -1640,93 +1641,101 @@ document.addEventListener('DOMContentLoaded', function() {
   	}
   }
 
-  if (typeof longAFZero !== 'undefined') {
-  	if (longAFZero === longAFArray[0]) {
-  		console.log("Step 2: Correct");
-  	} else {
-  		console.log("Step 2: Incorrect");		
-  	}
+  if (typeof longAFOne !== 'undefined') {
+    if (longAFOne === false) {
+      console.log("Step 2: Correct");
+    } else {
+      console.log("Step 2: Incorrect");    
+    }
   }
 
-  if (typeof longAF18 !== 'undefined') {
-  	if (longAF18 === longAFArray[18]) {
+  if (typeof longAFZero !== 'undefined') {
+  	if (longAFZero === longAFArray[0]) {
   		console.log("Step 3: Correct");
   	} else {
   		console.log("Step 3: Incorrect");		
   	}
   }
 
-  if (typeof longAF12 !== 'undefined') {
-  	if (longAF12 === longAFArray[11]) {
+  if (typeof longAF18 !== 'undefined') {
+  	if (longAF18 === false) {
   		console.log("Step 4: Correct");
   	} else {
   		console.log("Step 4: Incorrect");		
   	}
   }
 
-
-  if (typeof longAF16 !== 'undefined') {
-  	if (longAF16 === longAFArray[15]) {
+  if (typeof longAF12 !== 'undefined') {
+  	if (longAF12 === longAFArray[11]) {
   		console.log("Step 5: Correct");
   	} else {
   		console.log("Step 5: Incorrect");		
   	}
   }
 
-  if (typeof longAF3333 !== 'undefined') {
-  	if (longAF3333 === longAFArray.indexOf(3333)) {
+
+  if (typeof longAF16 !== 'undefined') {
+  	if (longAF16 === longAFArray[15]) {
   		console.log("Step 6: Correct");
   	} else {
   		console.log("Step 6: Incorrect");		
   	}
   }
 
-  if (typeof bigZero !== 'undefined') {
-  	if (bigZero === bigString[0]) {
+  if (typeof longAF3333 !== 'undefined') {
+  	if (longAF3333 === longAFArray.indexOf(3333)) {
   		console.log("Step 7: Correct");
   	} else {
   		console.log("Step 7: Incorrect");		
   	}
   }
 
-  if (typeof big28 !== 'undefined') {
-  	if (big28 === bigString[28]) {
+  if (typeof bigZero !== 'undefined') {
+  	if (bigZero === bigString[0]) {
   		console.log("Step 8: Correct");
   	} else {
   		console.log("Step 8: Incorrect");		
   	}
   }
 
-  if (typeof big5 !== 'undefined') {
-  	if (big5 === bigString[4]) {
+  if (typeof big28 !== 'undefined') {
+  	if (big28 === bigString[28]) {
   		console.log("Step 9: Correct");
   	} else {
   		console.log("Step 9: Incorrect");		
   	}
   }
 
-  if (typeof big12 !== 'undefined') {
-  	if (big12 === bigString[11]) {
+  if (typeof big5 !== 'undefined') {
+  	if (big5 === bigString[4]) {
   		console.log("Step 10: Correct");
   	} else {
   		console.log("Step 10: Incorrect");		
   	}
   }
 
-  if (typeof bigExpi !== 'undefined') {
-  	if (bigExpi === bigString.indexOf("expi")) {
+  if (typeof big12 !== 'undefined') {
+  	if (big12 === bigString[11]) {
   		console.log("Step 11: Correct");
   	} else {
   		console.log("Step 11: Incorrect");		
   	}
   }
 
-
-  if (typeof bigAli !== 'undefined') {
-  	if (bigAli === bigString.indexOf("ali")) {
+  if (typeof bigExpi !== 'undefined') {
+  	if (bigExpi === bigString.indexOf("expi")) {
   		console.log("Step 12: Correct");
   	} else {
   		console.log("Step 12: Incorrect");		
+  	}
+  }
+
+
+  if (typeof bigAli !== 'undefined') {
+  	if (bigAli === bigString.indexOf("ali")) {
+  		console.log("Step 13: Correct");
+  	} else {
+  		console.log("Step 13: Incorrect");		
   	}
   }
 
