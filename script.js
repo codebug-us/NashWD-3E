@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   // Step 10: 
-  // Set a variable called big5 equal to the 5th value in the longAFArray. 
+  // Set a variable called big5 equal to the 5th value in the bigString. 
 
 
 
