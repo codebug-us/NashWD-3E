@@ -6,79 +6,78 @@ document.addEventListener('DOMContentLoaded', function() {
   // Step 1: 
   // Set a variable called longAFArrayLength equal to the length of the longAFArray. 
   // Once you've done that, refresh the page, and open the console to see if you're right
-
+var longAFArrayLength = longAFArray.length;
 
 
   // Step 2: 
   // Is the value of longAFArray[1] equal to 11? Set a variable longAFOne equal to true or false. 
   // Once you've done that, refresh the page, and open the console to see if you're right
-
-
+ 
+ var longAF0ne = false;
 
   // Step 3: 
   // What is the value of longAFArray[0]? Set a variable longAFZero equal to that number.
   // Once you've done that, refresh the page, and open the console to see if you're right
-
-
+var longAFZero = longAFArray[0];
+//var longAFZero = 11;
 
   // Step 4: 
   // Is the value of longAFArray[18] equal to 113? Set a variable longAF18 equal to true or false. 
   // * Also, don't just console.log the value for longAFArray[18], that misses the point. * 
-
+var longAF18 = false;
 
 
   // Step 5: 
   // Set a variable called longAF12 equal to the twelfth item in the longAFArray. 
   // Hint: The 12th item in the array is not the same as the item at index 12.
-
+var longAF12 = 87;
 
 
   // Step 6: 
   // Set a variable called longAF16 equal to the 16th value in the longAFArray. 
-
+var longAF16 = 634;
 
 
   // Step 7: 
   // Open at the webpage in Chrome. Take a look at the reading for Step 6. 
   // Then, set a variable called longAF3333 to the INDEX that 3333 is located at in the longAFArray.
   // Also, predict what you think the index will be and console.log it. Were you right? 
-
+var longAF3333 = longAFArray.indexOf(3333);
 
 
  	// Step 8: 
  	// Strings have many of the same properties and functions as Arrays! 
  	// Look at the webpage in Chrome to find the reading for Step 7. 
  	// Set a variable called bigZero equal to the value at index 0 of the bigString
-
-
+var bigZero = "s";
 
  	// Step 9: 
  	// Set a variable called big28 equal to the value at index 28 of the bigString
-
+var big28 = "o";
 
 
   // Step 10: 
   // Set a variable called big5 equal to the 5th value in the bigString. 
-
+var big5 = "r";
 
 
   // Step 11: 
-  // Set a variable called big12 equal to the 12th value in the longAFArray. 
-
+  // Set a variable called big12 equal to the 12th value in the bigString. 
+var big12 = "a";
 
 
   // Step 12: 
   // Look at the webpage in Chrome to find the reading for Step 11. 
   // Set a variable called bigExpi to the index of "expi" in the bigString using the indexOf function. 
   // Also, predict what you think the index will be and console.log it. Were you right? 
-
+var bigExpi = bigString.indexOf("expi");
 
 
   // Step 13: 
   // Set a variable called bigAli to the index of "ali" in the bigString using the indexOf function. 
   // Notice there are two sections of bigString that have "ali". Which one will indexOf choose? 
   // console.log bigAli to see if you were right! 
-
+var bigAli = bigString.indexOf("ali");
 
 
 
